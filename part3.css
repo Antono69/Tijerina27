@@ -1,0 +1,67 @@
+resolution{
+    width: 99%;
+    text-align: center;
+}
+
+@media(min-width: 800px){
+    .mov{
+        display: none;
+    }
+    
+    body {
+        background: linear-gradient(120deg, #902bff, #55eaff);
+    }
+
+    .cont{
+        position: absolute;
+        top: 15%;
+        width: 30%;
+        left: 30%;
+        border: solid 5px;
+        border-radius: 10px;
+    }
+
+    .cont a{
+        display: block;
+        padding-left: 25%;
+        padding-top: 10%;
+    }
+
+    .cont img{
+        position: absolute;
+        top: 16%;
+        left: 5%;
+    }
+}
+
+@media(max-width: 767px){
+    .ord{
+        display: none;
+    }
+    
+    body {
+        background: linear-gradient(120deg, #902bff, #55eaff);
+    }
+
+    .cont{
+        position: absolute;
+        top: 15%;
+        height: 30%;
+        width: 45%;
+        left: 25%;
+        border: solid 5px;
+        border-radius: 10px;
+    }
+
+    .cont a{
+        display: block;
+        padding-left: 35%;
+        padding-top: 10%;
+    }
+
+    .cont img{
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+}
